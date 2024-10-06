@@ -1,0 +1,26 @@
+.skills-container {
+  margin: 4rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10rem;
+}
+
+.skills-container h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+.skills-content {
+  display: flex;
+  justify-content: flex-start; /* Aligns content to the left */
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 2rem; /* Space between cards */
+}

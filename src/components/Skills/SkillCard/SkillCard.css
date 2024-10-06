@@ -1,0 +1,40 @@
+.skills-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.65rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  text-align: center;
+  background: rgba(22, 17, 47, 0.6);
+  backdrop-filter: blur(1rem);
+  transition: all 0.3s ease;
+  min-width: 250px;
+  min-height: 150px;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.skills-card:hover,
+.skills-card.active {
+  background: linear-gradient(90deg, #aa94fe 0%, #7c5fe6 100%);
+  border-color: transparent;
+  transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.skills-card img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.skills-card h4 {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.skill-title {
+  font-weight: 500;
+}
