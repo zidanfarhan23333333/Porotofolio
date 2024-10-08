@@ -16,11 +16,11 @@
 }
 .skills-content {
   display: flex;
-  justify-content: flex-start; /* Aligns content to the left */
+  justify-content: flex-start;
 }
 
 .skills {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 2rem; /* Space between cards */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }

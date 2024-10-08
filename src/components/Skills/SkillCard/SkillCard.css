@@ -23,6 +23,11 @@
   transform: scale(1.05); /* Slightly larger on hover */
 }
 
+.skills-card span {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
 .skills-card img {
   width: 40px;
   height: 40px;
@@ -33,6 +38,27 @@
 .skills-card h4 {
   font-size: 1.25rem;
   color: #fff;
+}
+
+.skill-icon {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2252;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6852ba;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+}
+
+.skill-icon img {
+  width: 2.5rem;
+  margin-top: 1rem;
+  height: auto;
+  object-fit: contain;
 }
 
 .skill-title {
